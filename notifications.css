@@ -1,0 +1,14 @@
+body{
+background:#0f172a;
+font-family:Poppins,sans-serif;
+color:white;
+padding:30px;
+}
+
+.notification{
+background:#1e293b;
+padding:20px;
+margin-bottom:15px;
+border-left:5px solid #38bdf8;
+border-radius:10px;
+}
