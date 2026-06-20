@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+padding:40px;
+}
+
+.profile-container{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:350px 1fr;
+gap:30px;
+}
+
+.profile-card{
+background:#111827;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.profile-card img{
+width:150px;
+height:150px;
+border-radius:50%;
+border:5px solid #38bdf8;
+margin-bottom:20px;
+}
+
+.profile-card h2{
+margin-bottom:10px;
+}
+
+.profile-card p{
+opacity:.8;
+margin-bottom:20px;
+}
+
+.profile-card button{
+background:#38bdf8;
+border:none;
+padding:12px 25px;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+}
+
+.details-card{
+background:#111827;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.details-card h2{
+margin-bottom:25px;
+color:#38bdf8;
+}
+
+.info{
+margin-bottom:20px;
+padding-bottom:15px;
+border-bottom:1px solid #334155;
+}
+
+.info label{
+display:block;
+font-weight:600;
+margin-bottom:8px;
+color:#38bdf8;
+}
+
+.resume-btn{
+background:#22c55e;
+border:none;
+padding:10px 20px;
+border-radius:10px;
+color:white;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.profile-container{
+grid-template-columns:1fr;
+}
+
+}

@@ -1,0 +1,39 @@
+body{
+background:#0f172a;
+font-family:Poppins,sans-serif;
+color:white;
+padding:30px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:#1e293b;
+}
+
+th,td{
+padding:15px;
+border:1px solid #334155;
+}
+
+th{
+background:#111827;
+}
+
+.edit{
+background:#38bdf8;
+border:none;
+padding:8px 15px;
+border-radius:8px;
+cursor:pointer;
+margin-right:5px;
+}
+
+.delete{
+background:#ef4444;
+border:none;
+padding:8px 15px;
+border-radius:8px;
+cursor:pointer;
+color:white;
+}

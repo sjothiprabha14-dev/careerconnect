@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recruiter Dashboard</title>
+
+<link rel="stylesheet" href="css/recruiter.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            CareerConnect
+        </div>
+
+        <ul>
+
+<li class="active">
+    <a href="recruiter-dashboard.html">Dashboard</a>
+</li>
+
+<li>
+    <a href="post-job.html">Post Job</a>
+</li>
+
+<li>
+    <a href="manage-jobs.html">Manage Jobs</a>
+</li>
+
+<li>
+    <a href="applicants.html">Applicants</a>
+</li>
+
+<li>
+    <a href="recruiter-profile.html">Company Profile</a>
+</li>
+
+<li>
+    <a href="messages.html">Messages</a>
+</li>
+
+<li>
+    <a href="login.html">Logout</a>
+</li>
+
+</ul>
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <div class="welcome-card">
+            <h1>Welcome Recruiter 👋</h1>
+            <p>
+                Manage job postings, review applicants,
+                and hire top talent.
+            </p>
+        </div>
+
+        <!-- Stats -->
+
+        <div class="stats">
+
+            <div class="card">
+                <h2>24</h2>
+                <p>Active Jobs</p>
+            </div>
+
+            <div class="card">
+                <h2>156</h2>
+                <p>Total Applications</p>
+            </div>
+
+            <div class="card">
+                <h2>42</h2>
+                <p>Shortlisted</p>
+            </div>
+
+            <div class="card">
+                <h2>12</h2>
+                <p>Hired</p>
+            </div>
+
+        </div>
+
+        <!-- Job Post Form -->
+
+        <div class="section">
+
+            <h2>Post New Job</h2>
+
+            <form class="job-form">
+
+                <input type="text" placeholder="Job Title">
+
+                <input type="text" placeholder="Company Name">
+
+                <input type="text" placeholder="Location">
+
+                <input type="number" placeholder="Salary">
+
+                <textarea placeholder="Job Description"></textarea>
+
+                <button type="submit">
+                    Post Job
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Recent Applicants -->
+
+        <div class="section">
+
+            <h2>Recent Applicants</h2>
+
+            <table>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>JothiPrabha</td>
+                    <td>Frontend Developer</td>
+                    <td class="pending">Pending</td>
+                </tr>
+
+                <tr>
+                    <td>Rahul</td>
+                    <td>React Developer</td>
+                    <td class="selected">Selected</td>
+                </tr>
+
+                <tr>
+                    <td>Priya</td>
+                    <td>UI/UX Designer</td>
+                    <td class="rejected">Rejected</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </main>
+
+    <!-- Company Profile -->
+
+    <aside class="profile-panel">
+
+        <img src="https://via.placeholder.com/120" alt="company">
+
+        <h3>TechNova Solutions</h3>
+
+        <p>Technology Company</p>
+
+        <div class="details">
+
+            <span>500+ Employees</span>
+            <span>25 Openings</span>
+            <span>Remote Friendly</span>
+
+        </div>
+
+        <button>Edit Company Profile</button>
+
+    </aside>
+
+</div>
+
+</body>
+</html>

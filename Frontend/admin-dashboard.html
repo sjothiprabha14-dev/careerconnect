@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareerConnect Admin Dashboard</title>
+
+<link rel="stylesheet" href="css/admin.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">CareerConnect</div>
+
+        <ul>
+
+<li class="active">
+    <a href="admin-dashboard.html">Dashboard</a>
+</li>
+
+<li>
+    <a href="user-management.html">Users</a>
+</li>
+
+<li>
+    <a href="recruiter-management.html">Recruiters</a>
+</li>
+
+<li>
+    <a href="reports.html">Reports</a>
+</li>
+
+<li>
+    <a href="admin-profile.html">Profile</a>
+</li>
+
+<li>
+    <a href="settings.html">Settings</a>
+</li>
+
+<li>
+    <a href="login.html">Logout</a>
+</li>
+
+</ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <div class="welcome-card">
+            <h1>Welcome Admin 👑</h1>
+            <p>
+                Monitor platform activities, manage users,
+                approve recruiters, and generate reports.
+            </p>
+        </div>
+
+        <!-- Statistics -->
+
+        <div class="stats">
+
+            <div class="card">
+                <h2>3200</h2>
+                <p>Total Students</p>
+            </div>
+
+            <div class="card">
+                <h2>540</h2>
+                <p>Recruiters</p>
+            </div>
+
+            <div class="card">
+                <h2>1240</h2>
+                <p>Jobs Posted</p>
+            </div>
+
+            <div class="card">
+                <h2>860</h2>
+                <p>Placements</p>
+            </div>
+
+        </div>
+
+        <!-- Recruiter Approval -->
+
+        <div class="section">
+
+            <h2>Recruiter Approval Requests</h2>
+
+            <table>
+
+                <tr>
+                    <th>Company</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td>TechNova</td>
+                    <td>hr@technova.com</td>
+                    <td class="pending">Pending</td>
+                    <td>
+                        <button class="approve">Approve</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>CodeCraft</td>
+                    <td>jobs@codecraft.com</td>
+                    <td class="pending">Pending</td>
+                    <td>
+                        <button class="approve">Approve</button>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <!-- Recent Activities -->
+
+        <div class="section">
+
+            <h2>Recent Activities</h2>
+
+            <ul class="activity-list">
+                <li>New student registered.</li>
+                <li>Recruiter posted Frontend Developer role.</li>
+                <li>Admin generated placement report.</li>
+                <li>Student applied for UI/UX Internship.</li>
+                <li>Recruiter approved candidate profile.</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <!-- Admin Profile -->
+
+    <aside class="profile-panel">
+
+        <img src="https://via.placeholder.com/120" alt="admin">
+
+        <h3>Administrator</h3>
+
+        <p>System Manager</p>
+
+        <div class="admin-info">
+
+            <span>Manage Users</span>
+            <span>Generate Reports</span>
+            <span>Platform Settings</span>
+
+        </div>
+
+        <button>Edit Profile</button>
+
+    </aside>
+
+</div>
+
+</body>
+</html>
